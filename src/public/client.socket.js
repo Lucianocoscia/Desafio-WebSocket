@@ -50,7 +50,7 @@ const renderMesagge = (messageData) => {
     return `
               <div class="d-flex justify-content-center ">
                 <p class="m-1" style="color: blue;"> ${messageInfo.email}</p> 
-                <span class="m-1" style="color: brown;">${dateOficial}</span> 
+                <span class="m-1" style="color: brown;">[${dateOficial}]:</span> 
                 <span class="m-1" style="color: green; font-style: italic;">${messageInfo.message}</span>
               </div>
 
